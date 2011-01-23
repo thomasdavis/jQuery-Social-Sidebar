@@ -1,8 +1,8 @@
 /**
  * @author Thomas Davis.
- * Use somebody
+ * Images are hosted on CDNJS.com
  *
- * Version 5.3
+ * Version 5.4
  * Copyright (c) 2011	 Thomas Davis
  *
  * Licensed under the MIT license:
@@ -14,20 +14,20 @@
   $.fn.socialSidebar = function( options ) {  
 
     return this.each(function() {
-
+      IMAGE_BASE = 'http://ryth.cdnjs.com/plugins/jquery.social-sidebar/5.3/images/';
       var settings = {
 		'top'        : '100px',
         'twitter'         : {
 			'username': '',
-			'image': 'images/twitter.jpg'
+			'image': IMAGE_BASE + 'twitter.jpg'
 		},
         'facebook'         : {
 			'link': '',
-			'image': 'images/facebook.jpg'
+			'image': IMAGE_BASE + 'facebook.jpg'
 		},
         'linkedin'         : {
 			'link': '',
-			'image': 'images/linkedin.jpg'
+			'image': IMAGE_BASE + 'linkedin.jpg'
 		},
 		'public': 1
       };
