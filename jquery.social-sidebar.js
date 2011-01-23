@@ -1,5 +1,14 @@
-//Thomas Davis - http://thomasalwyndavis.com - Contact me for anything, I love mail
-//2010
+/**
+ * @author Thomas Davis.
+ * Use somebody
+ *
+ * Version 5.1
+ * Copyright (c) 2011 Thomas Davis
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ */
 (function( $ ){
 
   $.fn.socialSidebar = function( options ) {  
@@ -10,15 +19,15 @@
 		'top'        : '100px',
         'twitter'         : {
 			'username': '',
-			'image': 'http://thomasalwyndavis.com.nyud.net/socialsidebar/twitter.jpg'
+			'image': 'images/twitter.jpg'
 		},
         'facebook'         : {
 			'link': '',
-			'image': 'http://thomasalwyndavis.com.nyud.net/socialsidebar/facebook.jpg'
+			'image': 'images/facebook.jpg'
 		},
         'linkedin'         : {
 			'link': '',
-			'image': 'http://thomasalwyndavis.com.nyud.net/socialsidebar/linkedin.jpg'
+			'image': 'images/linkedin.jpg'
 		},
 		'public': 1
       };
