@@ -2,8 +2,8 @@
  * @author Thomas Davis.
  * Use somebody
  *
- * Version 5.1
- * Copyright (c) 2011 Thomas Davis
+ * Version 5.2
+ * Copyright (c) 2011	 Thomas Davis
  *
  * Licensed under the MIT license:
  * http://www.opensource.org/licenses/mit-license.php
